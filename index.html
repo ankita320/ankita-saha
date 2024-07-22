@@ -4,10 +4,14 @@
        	<title>Home</title>
        	<meta charset="utf-8" />
 		     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		     <meta name="viewport" content="width=device-width, initial-scale=1" />
-		     <link rel="preconnect" href="https://fonts.googleapis.com">
+		     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+             <link href="style.css" rel="stylesheet" type="text/css"/>
+             <script src="https://kit.fontawesome.com/d78a9b3388.js" crossorigin="anonymous"></script> 
+
+            <!-- Link the webpage's stylesheet -->
+             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">		     <link rel="preconnect" href="https://fonts.googleapis.com">
 		     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 		     <!-- link the webpage's stylesheet -->
 		     <link rel="stylesheet" href="./styleFinalProject.css" />
 		     <!-- link the webpage's JavaScript file -->
@@ -16,29 +20,45 @@
    <!--Nav bar-->
    		<body>
 		    <ul id= "navbar">
-		    	<div class= "inline">
-		        <li><a href="index.html" class= "space">Home</a></li>
-		        <li><a href="./passions.html" class= "space">Passions</a></li>
-		        <li><a href="./codingProjects.html" class= "space">Projects</a></li>
-		        <li><a href="./artwork.html" class= "space">Artwork</a></li>
-		        <li><a href="./contact.html" class= "space">Contact</a></li>
-		      </div>
-		    </ul>
+                <div class= "inline">
+                    <li><a href="index.html" class= "space">Home</a></li>
+                    <li><a href="./passions.html" class= "space">Passions</a></li>
+                    <li><a href="./codingProjects.html" class= "space">Projects</a></li>
+                    <li><a href="./writing.html" class= "space">Writing</a></li>
+                    <li><a href="./artwork.html" class= "space">Artwork</a></li>
+                    <li><a href="./contact.html" class= "space">Contact</a></li>
+                    <li id="google_translate_element"></li>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement(
+                        {pageLanguage: 'en'},
+                        'google_translate_element'
+                    );
+                }
+            </script>
+            <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    
+                  </div>
+                </ul>
  <!--First homepage section-->
 			<section class= "welcome-section">
 			    <div class= "title">
                     <div class = "flex">
                         <div id= "title-inline"> <p class= "welcome-title">Hi, I'm <p id= "name_intro_page">Ankita.</p></p></div>
                         <p class="intro-text">Aspiring Software Developer. </p>
+                        
                     </div>
                 </div>
             </section>
 
  <!--section for about me page-->
             <section class= "next-page">
+                <li id="google_translate_element"></li>
                 <p class= "aboutme">About Me.</p>
                 <p class= "aboutme-text">Hey! My name is Ankita and I am a Bengali-American student born and raised in Queens, New York. I am currently a senior in high school. Some of my interests involve reading, drawing, doing calligraphy, and coding! I really enjoy reading new books as it immerses me into whole different worlds. I enjoy practicing art, color pencil realism -- I love blending and piecing colors together in creating the end result. I started coding back during quarantine, and I fell in love ever since. The thought of how different elements come together to create an interactive or creative product fascinates and excites me.  </p>
                 <p class= "aboutme-text" class= "hobbiess">I also enjoy hanging out with my friends and love trying new foods and desserts with them. Throughout the week I often volunteer at my local library; it's honestly really fun to just simply explore the many things I haven't encountered before. Some other things that I enjoy aree exploring new cafes and watching Modern Family. My favorite character is Mitchell but my sister tells me I'm more of an Alex. That's a little bit about me! My personal website encompasses some of my hobbies and interests. I plan on adding new things every once in a while so it stays close with me! Stick around if you'd like :)) </p>
+                
+           
             </section>      
     <!--section for skills page-->             
             <section class= "skills-page">
@@ -62,7 +82,12 @@
                 <div id="center-ny"><img src="https://www.travelandleisure.com/thmb/91pb8LbDAUwUN_11wATYjx5oF8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg" width="1300px" id="newyork"></div>
             </section>
         </body>
-    </html>
+        <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>
+
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=”anonymous”></script>
+
+<script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” crossorigin=”anonymous”></script>
+        </html>
                 
                 
                 

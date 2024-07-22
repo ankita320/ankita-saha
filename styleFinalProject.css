@@ -37,17 +37,14 @@ body {
    }
 
    #navbar {
-     background-color: #70C4D1;
-     margin-left: -10px;
-     margin-right: -10px;
-     margin-top: -10px;
+     background-color: #70d1be;
      padding-top: 14px;
      padding-bottom: 14px;
      width: 100%;
      font-size: 20px;
      font-family: 'Poppins', sans-serif;
      position: fixed;
-     filter: drop-shadow(2px 3px 3px #426d70);
+     filter: drop-shadow(2px 3px 3px #427068);
      list-style: none;
    }
 
@@ -65,7 +62,7 @@ body {
    }
 
    #code-section {
-    background-color: #005878;
+    background-color: #007478;
     height: 3300px;
     margin-left: -10px;
     margin-right: -10px;
@@ -77,7 +74,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	padding: 10px;
     margin-left: 10px;
-    color: #003249;
+    color: #00493e;
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -110,8 +107,9 @@ body {
 
 /*index.html css*/
    .welcome-section {
-    margin-right: 20px;
+    margin-right: -20px;
     padding: 80px;
+    height: 100%;
     display:block;
 
    }
@@ -119,7 +117,7 @@ body {
    .alright {
      border-radius: 110px;
      border-style: solid;
-     border-color: #f0dbdc;
+     border-color: #dbf0e9;
      border-width: 5px;
      margin-top: -60px;
      margin-bottom: 20px;
@@ -129,7 +127,7 @@ body {
 
    .welcome-title {
     text-shadow: 1px 1px 2px black;
-     color: #03080c;
+     color: #030c0c;
      font-size: 100px;
      font-weight: 900;
      font-family: 'Poppins', sans-serif;
@@ -157,8 +155,8 @@ body {
 
 
 #name_intro_page {
-    text-shadow: 1px 1px 4px rgb(20, 52, 55);
-    color: #007EA7;
+    text-shadow: 1px 1px 4px rgb(28, 67, 75);
+    color: #088772;
     font-size: 100px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
@@ -178,31 +176,27 @@ body {
 
    }
    .next-page{
-    background-color:#9AD1D4;
+    background-color:#9ad4c3;
     margin-left: -10px;
     margin-right: -10px;
     padding-top: 20px;
-    height: 1000px;
+    height: 1070px;
     padding-bottom: 35px
 
    }
    
    
     .skills-page{
-     background-color:#0c728e;
-     margin-left: -10px;
-     margin-right: -10px;
+     background-color:#0c8e72;
      padding-top: 20px;
-     height: 800px;
-     margin-bottom: -15px;
-     padding-bottom:110px;
+     height: 950px;
      
      
      }
      
       
     .location-page{
-      background-color:#B3D6D8;
+      background-color:#b3d8d5;
       margin-left: -10px;
       margin-right: -10px;
       padding-top: 20px;
@@ -214,7 +208,7 @@ body {
 
    .aboutme {
      padding: 30px;
-     color: #054258;
+     color: #055857;
      font-size: 65px;
      font-weight: 900;
      font-family: 'Poppins', sans-serif;
@@ -228,7 +222,7 @@ body {
    }
 
     .aboutme-text {
-     background-color: #b8d7d8;    
+     background-color: #b8d8d2;    
      border-radius: 18px;
      padding: 10px;
      color: #000000;
@@ -260,7 +254,7 @@ body {
 
    .locations {
      padding: 30px;
-     color: #053747;
+     color: #05473d;
      font-size: 65px;
      font-weight: 900;
      font-family: 'Poppins', sans-serif;
@@ -277,20 +271,34 @@ body {
    margin-right: 75px;
    }
 
+   .container {
+    position: relative;
+  }
+
     #newyork {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 20px;
+    }
+
+    #newyork:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 20px;
+      filter: blur(4px) grayscale(0.60);
+      
     }
 
     #center-ny {
-    text-align: center;
+      text-align: center;
     }
+
+      
+    
 
    .pics {
      height: 560px;
      width: 630px;
      border-radius: 20px;
-     border-color: #f0dbdc;
+     border-color: #dbf0ed;
      border-style: solid;
      border-width: 5px;
 
@@ -319,10 +327,9 @@ body {
 
    .intro-text {
     display:block;
-    color: #003249;
+    color: #004948;
     font-size: 22px;
     text-align: start;
-    margin-top: -125px;
     font-family: 'Poppins', sans-serif;
    }
 
@@ -350,7 +357,7 @@ body {
 
    #project-title {
    padding: 10px;
-   color: #d2edf3;
+   color: #d2f3e8;
    font-size: 50px;
    font-family: 'Poppins', sans-serif;
    text-align: center;
@@ -371,7 +378,7 @@ body {
    color: #000000;
    text-align: center;
    font-family: 'Poppins', sans-serif;
-   background-color: rgb(164, 214, 217);
+   background-color: rgb(164, 217, 206);
    margin-bottom: 40px;
    margin-top: 10px;
    border-radius: 20px;
@@ -383,7 +390,7 @@ body {
  
  
  .green {
-   background-color: #7b8f70
+   background-color: #70748f
  }
  
  #inline{
@@ -393,11 +400,30 @@ body {
 
 /*spectator css*/
 #articles-section {
-  background-color: #9AD1D4;
-  height: 3800px;
+  background-color: #9ad4c9;
+  height: 1500px;
   margin-left: -10px;
-  margin-right: -10px;
+  margin-right: -20px;
   padding-top: 30px;
+  
+}
+
+#articles-section1 {
+  background-color: #458e81;
+  height: 800px;
+  margin-left: -10px;
+  margin-right: -20px;
+  padding-top: 30px;
+  
+}
+
+#articles-section2 {
+  background-color: #92c6bc;
+  height: 1250px;
+  margin-left: -10px;
+  margin-right: -20px;
+  padding-top: 30px;
+  
 }
 
 #article-intro {
@@ -411,7 +437,6 @@ body {
 #three-articles {
   display: flex;
   text-align: center;
-  margin-bottom: 30px;
   width: 95%;
   margin:auto;
   padding-top: 100px;
@@ -428,11 +453,10 @@ body {
 
 #article-margin {
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .article-bg {
-  background-image: linear-gradient(to right, #5492a3, #396e7e) ;
+  background-image: linear-gradient(to right, #54a39b, #397e71) ;
   margin-left: 40px;
   margin-right: 40px;
   padding: 20px;
@@ -441,17 +465,40 @@ body {
   width: 360px;
 }
 
+.article-bgg {
+  background-image: linear-gradient(to right, #e8fdf5, #cdefdb) ;
+  margin: 6em;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.article-bgg1 {
+  background-image: linear-gradient(to right, #e8fdf5, #cdefdb) ;
+  margin: 6em;
+  padding: 4em;
+  border-radius: 10px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
 .article-title {
   font-family: 'Poppins', sans-serif;
   font-size: 35px;
+  text-align: center;
   font-weight: 600px;
   color: white;
+}
+
+.article-title1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600px;
+  color: rgb(26, 57, 52);
 }
 
 .article-text {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 100px;
+  text-align: center;
   color: white;
 }
 
@@ -471,7 +518,7 @@ body {
   border-radius: 20px;
   font-size: 18px;
   border-color: white;
-  background-image: linear-gradient(to right,  #5492a3, #396e7e );
+  background-image: linear-gradient(to right,  #54a393, #397e70 );
   border-style: solid;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
@@ -493,15 +540,19 @@ a:visited:hover {
   color: white;
 }
 
-.center {
-  margin: auto;
+.center1 {
+  display:flex;
  
+}
+
+.center {
+  margin:auto;
 }
 /*contact css*/
 
 #form-page{
   height: 600px;
-  background-color:#25687a;
+  background-color:#257a74;
   margin-left: -10px;
   margin-right: -10px;
   padding-top: 30px;
@@ -556,8 +607,15 @@ input {
 
 #art-page {
   height: 4600px;
-  background-color:#25687a;
+  background-color:#257a62;
   margin-left: -10px;
   margin-right: -10px;
   padding-top: 30px;
+}
+
+#google_translate_element {
+  padding-top: 10px;
+  padding-left:15px;
+  display: flex;
+  justify-content: flex-end;
 }
