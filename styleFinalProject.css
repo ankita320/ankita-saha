@@ -401,7 +401,16 @@ body {
 /*spectator css*/
 #articles-section {
   background-color: #9ad4c9;
-  height: 1500px;
+  height: 700px;
+  margin-left: -10px;
+  margin-right: -20px;
+  padding-top: 30px;
+  
+}
+
+#articles-section-spec {
+  background-color: #9ad4c9;
+  height: 3600px;
   margin-left: -10px;
   margin-right: -20px;
   padding-top: 30px;
@@ -419,7 +428,7 @@ body {
 
 #articles-section2 {
   background-color: #92c6bc;
-  height: 1250px;
+  height: 950px;
   margin-left: -10px;
   margin-right: -20px;
   padding-top: 30px;
@@ -428,11 +437,18 @@ body {
 
 #article-intro {
     text-align: center;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     color: black;
 }
 
+#article-intro1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom:30px;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
 
 #three-articles {
   display: flex;
@@ -467,17 +483,23 @@ body {
 
 .article-bgg {
   background-image: linear-gradient(to right, #e8fdf5, #cdefdb) ;
-  margin: 6em;
+  margin: 3em;
   border-radius: 20px;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .article-bgg1 {
   background-image: linear-gradient(to right, #e8fdf5, #cdefdb) ;
-  margin: 6em;
-  padding: 4em;
-  border-radius: 10px;
+  margin: 0em;
+  padding: 6em;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  width:40%; 
+    height:90px; 
+    float: left;
+    overflow: hidden;
 }
+
+
+
 .article-title {
   font-family: 'Poppins', sans-serif;
   font-size: 35px;
@@ -499,7 +521,15 @@ body {
   font-size: 18px;
   font-weight: 100px;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+.article-text-comm {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 100px;
+  text-align: center;
+  color: rgb(23, 42, 41);
 }
 
 .full-article {
@@ -542,6 +572,8 @@ a:visited:hover {
 
 .center1 {
   display:flex;
+  align-items: center;
+  justify-content: center;
  
 }
 
